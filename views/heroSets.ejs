@@ -1,0 +1,81 @@
+<article class="content" >
+    <div class="row  containerBg">
+        <div class="col-md-4">
+
+
+            <form name="list hero" target="_blank" method="GET" onsubmit="">
+                <label>hero:</label>
+                <select class="select-dropdown" name="list hero"></select>
+
+            </form>
+            <!---<% var date=new Date();
+            var year = date.getFullYear();
+            %>
+            <select name="year">
+                <%for(var i=year;i>1950;i--)
+                {
+                %>
+                <option value='<%= i%>' /><%= i%> </option>
+                <% }%>
+            </select> --->
+
+
+        </div>
+        <div class="col-md-4">
+        <form name="list hero" target="_blank" method="GET" onsubmit="">
+            <label>Rarity:</label>
+            <select class="select-dropdown" name="list hero">
+                <option value="one">One</option>
+                <option value="two">Two</option>
+            </select>
+
+        </form>
+            </div>
+        <div class="col-md-4">
+        <form name="list hero" target="_blank" method="GET" onsubmit="">
+            <label>Sort by:</label>
+            <select class="select-dropdown" name="list hero">
+                <option value="one">One</option>
+                <option value="two">Two</option>
+            </select>
+
+        </form>
+            </div>
+
+
+    </div>
+    <div class="row">
+
+        <div class="col-sm-6 col-md-4 paging"> <form name="paging" target="_blank" class="numDisplayItem"><span>item per page:</span><ul>
+                    <a href="#"><li>20</li></a>
+                    <a href="#"><li>60</li></a>
+                    <a href="#"><li>all</li></a>
+                </ul></form></div>
+        <div class=" col-md-4"></div>
+        <div class="col-sm-6 col-md-4 paging">
+<form name="paging" target="_blank" >
+           <a href="#"> <span class="glyphicon glyphicon-triangle-right webfont pagenav-right pagenav" aria-hidden="true"></span></a>
+            <ul>
+                <a href="#"><li>1</li></a>
+                <a href="#"><li>2</li></a>
+                <a href="#"><li>3</li></a>
+                <li>...</li>
+                <a href="#"><li>17</li></a>
+            </ul>
+            <a href="#"><span class="glyphicon glyphicon-triangle-left pagenav" aria-hidden="true"></span></a>
+</form>
+        </div>
+
+
+
+    </div>
+
+    <div class="row">
+        <div class="containerBg">
+            <div class="col-md-6">
+
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+    </div>
+    </article>

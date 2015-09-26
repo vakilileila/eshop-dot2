@@ -1,0 +1,9 @@
+<article class="content">
+    <% heros.forEach(function(hero){ %>
+    <div>
+        <h1><%= hero.name %></h1>
+        <h2><%= hero.itemName %></h2>
+        <img src="<%= hero.imageUrl %>">
+    </div>
+    <% }); %>
+</article>
